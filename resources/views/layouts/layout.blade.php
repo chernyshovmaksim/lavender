@@ -8,10 +8,14 @@
     <title>Lavender</title>
     @livewireStyles
     @livewireScripts
-    @vite('resources/css/app.css', 'resources/js/app.js')
+    @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
 </head>
 
 <body class="antialiased bg-slate-100">
+    <div id="preloader" class="flex justify-center items-center fixed w-full h-screen left-0 top-0 bg-white z-50">
+        <img src="/assets/img/preloader.svg" alt="">
+    </div>
     @include('parts.header')
     @yield('content')
 </body>

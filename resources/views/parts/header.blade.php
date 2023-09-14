@@ -42,15 +42,15 @@
             </ul>
         </nav>
     </div>
-    <nav class="border-t-[1px] border-gray-100 mt-4 py-2">
+    <nav class="border-t-[1px] border-gray-100 mt-4">
         <ul class="container flex items-center justify-between font-normal text-sm text-slate-700 uppercase">
-            <li class="relative"><a href="/">Не дорогие цветы</a></li>
-            <li class="relative"><a href="/">Розы</a></li>
-            <li class="relative"><a href="/">Разные цветы</a></li>
-            <li class="relative"><a href="/">Букеты</a></li>
-            <li class="relative"><a href="/">Цветы в коробке</a></li>
-            <li class="relative"><a href="/">Корзины с цветами</a></li>
-            <li class="relative"><a href="/">Подарки</a></li>
+            <li class="relative"><a class=" py-2" href="/">Не дорогие цветы</a></li>
+            <li class="relative"><a class=" py-2" href="/">Розы</a></li>
+            <li class="relative"><a class=" py-2" href="/">Разные цветы</a></li>
+            <li class="relative"><a class=" py-2" href="/">Букеты</a></li>
+            <li class="relative"><a class=" py-2" href="/">Цветы в коробке</a></li>
+            <li class="relative"><a class=" py-2" href="/">Корзины с цветами</a></li>
+            <li class="relative"><a class=" py-2" href="/">Подарки</a></li>
 
             <x-link-with-dropdown title="Кому" :items="[
                 ['title' => 'Маме', 'path' => '/'],
