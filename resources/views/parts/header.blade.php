@@ -14,7 +14,7 @@
     <div class="mx-auto container flex items-center">
         <x-logo />
         <nav class="ml-auto">
-            <ul class="flex items-center gap-4 font-serif text-xs uppercase text-slate-500">
+            <ul class="flex items-center gap-4 font-serif text-xs text-slate-500">
                 <li><a href="/">Доставка</a></li>
                 <li><a href="/">Отзывы</a></li>
                 <li><a href="/">Корп.Клиентам</a></li>
@@ -43,14 +43,14 @@
         </nav>
     </div>
     <nav class="border-t-[1px] border-gray-100 mt-4">
-        <ul class="container flex items-center justify-between font-normal text-sm text-slate-700 uppercase">
-            <li class="relative"><a class=" py-2" href="/">Не дорогие цветы</a></li>
-            <li class="relative"><a class=" py-2" href="/">Розы</a></li>
-            <li class="relative"><a class=" py-2" href="/">Разные цветы</a></li>
-            <li class="relative"><a class=" py-2" href="/">Букеты</a></li>
-            <li class="relative"><a class=" py-2" href="/">Цветы в коробке</a></li>
-            <li class="relative"><a class=" py-2" href="/">Корзины с цветами</a></li>
-            <li class="relative"><a class=" py-2" href="/">Подарки</a></li>
+        <ul class="container flex items-center justify-between font-normal text-sm text-slate-700">
+            <li><a class=" py-2" href="/">Не дорогие цветы</a></li>
+            <li><a class=" py-2" href="/">Розы</a></li>
+            <li><a class=" py-2" href="/">Разные цветы</a></li>
+            <li><a class=" py-2" href="/">Букеты</a></li>
+            <li><a class=" py-2" href="/">Цветы в коробке</a></li>
+            <li><a class=" py-2" href="/">Корзины с цветами</a></li>
+            <li><a class=" py-2" href="/">Подарки</a></li>
 
             <x-link-with-dropdown title="Кому" :items="[
                 ['title' => 'Маме', 'path' => '/'],
