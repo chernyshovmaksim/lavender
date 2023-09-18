@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class linkWithDropdown extends Component
+class linkWithMegamenu extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class linkWithDropdown extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.link-with-dropdown');
+        return view('components.link-with-megamenu');
     }
 }
