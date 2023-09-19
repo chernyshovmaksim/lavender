@@ -3,8 +3,8 @@
         <span>{{ $title }}</span> 
         <img class="w-3" src="/assets/icons/chevron-down.svg" alt="">
     </a>
-    <div class="min-w-full py-4 bg-white absolute left-0 top-8 z-50 shadow">
-        <div class="container">
+    <div x-show="visible" x-transition class="min-w-full py-4 bg-white absolute left-0 top-8 z-50 shadow">
+        <div class="container flex items-center">
             MegaMenu
         </div>
     </div>
