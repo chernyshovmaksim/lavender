@@ -45,7 +45,6 @@
     <nav class="border-t-[1px] border-gray-100 mt-4 relative">
         <ul class="container flex items-center justify-between font-normal text-sm text-slate-700">
             <li><a class=" py-2" href="/">Не дорогие цветы</a></li>
-            <li><a class=" py-2" href="/">Розы</a></li>
             <x-link-with-megamenu title="Розы"/>
             <li><a class=" py-2" href="/">Разные цветы</a></li>
             <li><a class=" py-2" href="/">Букеты</a></li>
