@@ -3,6 +3,10 @@
 namespace App\Facades;
 
 class Slug {
+    /**
+     * Функция транслитерации предложений и слов с великого и могучего на пендоский
+     * @param string $title
+     * */ 
     public static function convert($title): string
     {
         $converter = [
