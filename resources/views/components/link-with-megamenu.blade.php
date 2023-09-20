@@ -1,6 +1,6 @@
 <li x-data="{ visible: false }" @click="visible = !visible">
     <a class="flex items-center gap-1 py-2" href="#" :class="visible ? 'text-lavender' : ''" x-on:click.prevent>
-        <span>{{ $title }}</span> 
+        <span>{{ $title }}</span>
         <img class="w-3" :class="visible ? 'transform rotate-180' : ''" src="/assets/icons/chevron-down.svg" alt="">
     </a>
     <div x-show="visible" x-transition class="min-w-full py-4 bg-white absolute left-0 top-[37px] z-50 shadow">
