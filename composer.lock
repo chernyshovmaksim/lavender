@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e59a3f949f5af41435d96badcd0128c3",
+    "content-hash": "cb20480eb47bbe4ccd4a5301ed9e9173",
     "packages": [
         {
             "name": "brick/math",
@@ -1806,52 +1806,6 @@
             "time": "2023-08-05T12:09:49+00:00"
         },
         {
-            "name": "lee-to/laravel-package-command",
-            "version": "0.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lee-to/laravel-package-command.git",
-                "reference": "18c398032bc92b52ebe1374521c6e1e8393ab9e4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lee-to/laravel-package-command/zipball/18c398032bc92b52ebe1374521c6e1e8393ab9e4",
-                "reference": "18c398032bc92b52ebe1374521c6e1e8393ab9e4",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.0|^8.1|^8.2"
-            },
-            "require-dev": {
-                "fakerphp/faker": "^1.9.2",
-                "mockery/mockery": "^1.4.4",
-                "phpunit/phpunit": "^9.5.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Leeto\\PackageCommand\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Danil Shutsky",
-                    "email": "info@cutcode.ru",
-                    "homepage": "https://github.com/lee-to"
-                }
-            ],
-            "description": "Package development command",
-            "support": {
-                "issues": "https://github.com/lee-to/laravel-package-command/issues",
-                "source": "https://github.com/lee-to/laravel-package-command/tree/0.9.1"
-            },
-            "time": "2023-01-31T10:29:24+00:00"
-        },
-        {
             "name": "livewire/livewire",
             "version": "v3.0.3",
             "source": {
@@ -2024,90 +1978,6 @@
                 }
             ],
             "time": "2023-06-21T08:46:11+00:00"
-        },
-        {
-            "name": "moonshine/moonshine",
-            "version": "1.62.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/moonshine-software/moonshine.git",
-                "reference": "39a5b403de6b9fafb7fa445bcc3e19bf121de0a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/moonshine-software/moonshine/zipball/39a5b403de6b9fafb7fa445bcc3e19bf121de0a8",
-                "reference": "39a5b403de6b9fafb7fa445bcc3e19bf121de0a8",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "lee-to/laravel-package-command": "^0.9.1",
-                "php": "^8.0|^8.1|^8.2",
-                "rap2hpoutre/fast-excel": "^5.0"
-            },
-            "conflict": {
-                "laravel/framework": "<9.37.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.5",
-                "nunomaduro/larastan": "^2.6",
-                "orchestra/testbench": "^8.5",
-                "pestphp/pest": "^2.0",
-                "pestphp/pest-plugin-laravel": "^2.0",
-                "pestphp/pest-plugin-mock": "^2.0",
-                "rector/rector": "^0.16.0"
-            },
-            "suggest": {
-                "laravel/socialite": "Required to use the Socialite",
-                "unisharp/laravel-filemanager": "Required if you want tinymce file manager"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "MoonShine\\Providers\\MoonShineServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "MoonShine\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Danil Shutsky",
-                    "email": "info@cutcode.ru",
-                    "homepage": "https://cutcode.dev"
-                }
-            ],
-            "description": "Laravel administration panel",
-            "homepage": "https://moonshine.cutcode.dev",
-            "keywords": [
-                "admin",
-                "dashboard",
-                "laravel",
-                "moonshine"
-            ],
-            "support": {
-                "issues": "https://github.com/moonshine-software/moonshine/issues",
-                "source": "https://github.com/moonshine-software/moonshine"
-            },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/moonshine",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2023-08-29T07:25:36+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -2505,99 +2375,6 @@
                 }
             ],
             "time": "2023-02-08T01:06:31+00:00"
-        },
-        {
-            "name": "openspout/openspout",
-            "version": "v4.17.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/openspout/openspout.git",
-                "reference": "3a058a1c5755f228b2addcb76b46dfcb54173d5e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/openspout/openspout/zipball/3a058a1c5755f228b2addcb76b46dfcb54173d5e",
-                "reference": "3a058a1c5755f228b2addcb76b46dfcb54173d5e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-fileinfo": "*",
-                "ext-filter": "*",
-                "ext-libxml": "*",
-                "ext-xmlreader": "*",
-                "ext-zip": "*",
-                "php": "~8.1.0 || ~8.2.0"
-            },
-            "require-dev": {
-                "ext-zlib": "*",
-                "friendsofphp/php-cs-fixer": "^3.25.1",
-                "infection/infection": "^0.27",
-                "phpbench/phpbench": "^1.2.14",
-                "phpstan/phpstan": "^1.10.33",
-                "phpstan/phpstan-phpunit": "^1.3.14",
-                "phpstan/phpstan-strict-rules": "^1.5.1",
-                "phpunit/phpunit": "^10.3.3"
-            },
-            "suggest": {
-                "ext-iconv": "To handle non UTF-8 CSV files (if \"php-mbstring\" is not already installed or is too limited)",
-                "ext-mbstring": "To handle non UTF-8 CSV files (if \"iconv\" is not already installed)"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "OpenSpout\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Adrien Loison",
-                    "email": "adrien@box.com"
-                }
-            ],
-            "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way",
-            "homepage": "https://github.com/openspout/openspout",
-            "keywords": [
-                "OOXML",
-                "csv",
-                "excel",
-                "memory",
-                "odf",
-                "ods",
-                "office",
-                "open",
-                "php",
-                "read",
-                "scale",
-                "spreadsheet",
-                "stream",
-                "write",
-                "xlsx"
-            ],
-            "support": {
-                "issues": "https://github.com/openspout/openspout/issues",
-                "source": "https://github.com/openspout/openspout/tree/v4.17.0"
-            },
-            "funding": [
-                {
-                    "url": "https://paypal.me/filippotessarotto",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/Slamdunk",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-09-05T06:39:07+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3386,76 +3163,6 @@
                 }
             ],
             "time": "2023-04-15T23:01:58+00:00"
-        },
-        {
-            "name": "rap2hpoutre/fast-excel",
-            "version": "v5.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rap2hpoutre/fast-excel.git",
-                "reference": "97987c4f3d09e9ef8d9480b46116387e8bf6e3a4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rap2hpoutre/fast-excel/zipball/97987c4f3d09e9ef8d9480b46116387e8bf6e3a4",
-                "reference": "97987c4f3d09e9ef8d9480b46116387e8bf6e3a4",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0|^10.0",
-                "openspout/openspout": "^4.1.1",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "illuminate/database": "^6.20.12 || ^7.30.4 || ^8.24.0 || ^9.0|^10.0",
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "3.*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Rap2hpoutre\\FastExcel\\Providers\\FastExcelServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/functions/fastexcel.php"
-                ],
-                "psr-4": {
-                    "Rap2hpoutre\\FastExcel\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "rap2h",
-                    "email": "raphaelht@gmail.com"
-                }
-            ],
-            "description": "Fast Excel import/export for Laravel",
-            "keywords": [
-                "csv",
-                "excel",
-                "laravel",
-                "xls",
-                "xlsx"
-            ],
-            "support": {
-                "issues": "https://github.com/rap2hpoutre/fast-excel/issues",
-                "source": "https://github.com/rap2hpoutre/fast-excel/tree/v5.3.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/rap2hpoutre",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-09-01T06:07:32+00:00"
         },
         {
             "name": "symfony/console",
@@ -7133,6 +6840,156 @@
             "time": "2023-09-05T04:34:51+00:00"
         },
         {
+            "name": "recca0120/laravel-tracy",
+            "version": "v1.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recca0120/laravel-tracy.git",
+                "reference": "cfe80797a2aabd01d09343562ad26e62769c29c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recca0120/laravel-tracy/zipball/cfe80797a2aabd01d09343562ad26e62769c29c5",
+                "reference": "cfe80797a2aabd01d09343562ad26e62769c29c5",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/database": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/routing": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/session": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/view": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "php": ">=5.5.9",
+                "recca0120/terminal": "^1.8",
+                "tracy/tracy": ">=2.4,<2.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "nesbot/carbon": "^1.20|^2.0",
+                "orchestra/testbench": "^2.0|^3.0|^4.18|^5.20|^6.23|^7.0|^8.0",
+                "phpunit/phpunit": "^4.8|^5.4|^6.1|^7.0|^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Recca0120\\LaravelTracy\\LaravelTracyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/polyfill.php"
+                ],
+                "psr-4": {
+                    "Recca0120\\LaravelTracy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recca0120",
+                    "email": "recca0120@gmail.com"
+                }
+            ],
+            "description": "A Laravel Package to integrate Nette Tracy Debugger",
+            "keywords": [
+                "debug",
+                "debugbar",
+                "error",
+                "error handler",
+                "laravel",
+                "nette",
+                "profiler",
+                "tracy",
+                "webprofiler"
+            ],
+            "support": {
+                "issues": "https://github.com/recca0120/laravel-tracy/issues",
+                "source": "https://github.com/recca0120/laravel-tracy/tree/v1.16.0"
+            },
+            "time": "2023-02-15T13:59:45+00:00"
+        },
+        {
+            "name": "recca0120/terminal",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recca0120/laravel-terminal.git",
+                "reference": "902f92d214307ae42bfe503e1b9aa4a455c5b014"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recca0120/laravel-terminal/zipball/902f92d214307ae42bfe503e1b9aa4a455c5b014",
+                "reference": "902f92d214307ae42bfe503e1b9aa4a455c5b014",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/console": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/database": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/events": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/filesystem": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/routing": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/view": "^5.1|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "php": ">=5.5.9",
+                "symfony/finder": "^2.7|^3.0|^4.0|^5.0|^6.0",
+                "webmozart/glob": "^4.1"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "mockery/mockery": "^0.9.4|^1.0",
+                "nesbot/carbon": "^1.20|^2.0",
+                "phpunit/phpunit": "^4.8|^5.1|^6.1|^7.0|^8.0|^9.0|^10.0",
+                "roave/security-advisories": "dev-latest",
+                "vlucas/phpdotenv": "^4.0|^5.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Recca0120\\Terminal\\TerminalServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/polyfill.php"
+                ],
+                "psr-4": {
+                    "Recca0120\\Terminal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recca0120",
+                    "email": "recca0120@gmail.com"
+                }
+            ],
+            "description": "run laravel artisan command in web application",
+            "keywords": [
+                "artisan",
+                "console",
+                "laravel",
+                "terminal",
+                "web",
+                "web artisan"
+            ],
+            "support": {
+                "issues": "https://github.com/recca0120/laravel-terminal/issues",
+                "source": "https://github.com/recca0120/laravel-terminal/tree/v1.11.0"
+            },
+            "time": "2023-02-15T12:26:42+00:00"
+        },
+        {
             "name": "sebastian/cli-parser",
             "version": "2.0.0",
             "source": {
@@ -8474,6 +8331,132 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
+        },
+        {
+            "name": "tracy/tracy",
+            "version": "v2.7.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/tracy.git",
+                "reference": "d2ce9ca5c1e87f9c2a36a888e5712b2dd1f49560"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/tracy/zipball/d2ce9ca5c1e87f9c2a36a888e5712b2dd1f49560",
+                "reference": "d2ce9ca5c1e87f9c2a36a888e5712b2dd1f49560",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-session": "*",
+                "php": ">=7.1"
+            },
+            "conflict": {
+                "nette/di": "<3.0"
+            },
+            "require-dev": {
+                "latte/latte": "^2.5",
+                "nette/di": "^3.0",
+                "nette/mail": "^3.0",
+                "nette/tester": "^2.2",
+                "nette/utils": "^3.0",
+                "phpstan/phpstan": "^0.12",
+                "psr/log": "^1.0|^2.0|^3.0"
+            },
+            "suggest": {
+                "https://nette.org/donate": "Please support Tracy via a donation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Tracy/shortcuts.php"
+                ],
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "😎  Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
+            "homepage": "https://tracy.nette.org",
+            "keywords": [
+                "Xdebug",
+                "debug",
+                "debugger",
+                "nette",
+                "profiler"
+            ],
+            "support": {
+                "issues": "https://github.com/nette/tracy/issues",
+                "source": "https://github.com/nette/tracy/tree/v2.7.9"
+            },
+            "time": "2021-12-10T04:28:58+00:00"
+        },
+        {
+            "name": "webmozart/glob",
+            "version": "4.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozarts/glob.git",
+                "reference": "3c17f7dec3d9d0e87b575026011f2e75a56ed655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozarts/glob/zipball/3c17f7dec3d9d0e87b575026011f2e75a56ed655",
+                "reference": "3c17f7dec3d9d0e87b575026011f2e75a56ed655",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "symfony/filesystem": "^5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Glob\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "A PHP implementation of Ant's glob.",
+            "support": {
+                "issues": "https://github.com/webmozarts/glob/issues",
+                "source": "https://github.com/webmozarts/glob/tree/4.6.0"
+            },
+            "time": "2022-05-24T19:45:58+00:00"
         }
     ],
     "aliases": [],

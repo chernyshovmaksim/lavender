@@ -22,6 +22,15 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         
-        Tag::factory(50)->create();
+        Tag::factory()->create([
+            'title' => 'Красные',
+            'slug' => 'red',
+            'image'=> '/'
+        ]);
+        Tag::factory()->create([
+            'title' => 'Белые',
+            'slug' => 'white',
+            'image'=> '/'
+        ]);
     }
 }

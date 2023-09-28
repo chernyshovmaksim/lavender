@@ -3,6 +3,7 @@
 @section('content')
     <x-hero />
     <x-heading title="Категории" />
-    <x-products />
+    <x-categories />
     <x-heading title="Акции" />
+    <x-products />
 @endsection
