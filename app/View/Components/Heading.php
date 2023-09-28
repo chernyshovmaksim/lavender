@@ -6,12 +6,12 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class LinkWithDropdown extends Component
+class Heading extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(public string $title,)
     {
         //
     }
@@ -21,6 +21,6 @@ class LinkWithDropdown extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.link-with-dropdown');
+        return view('components.heading');
     }
 }
