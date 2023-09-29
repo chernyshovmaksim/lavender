@@ -1,0 +1,30 @@
+{
+    "name": "cherry/lara-thumb",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cherry\\LaraThumb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chernyshovmaksim",
+            "email": "chernyshovmaksim56@gmail.com",
+            "homepage": "https://t.me/chernyshovmaksim"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.12"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cherry\\LaraThumb\\Providers\\LaraThumbServiceProvider"
+            ]
+        }
+    }
+}

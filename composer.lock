@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb20480eb47bbe4ccd4a5301ed9e9173",
+    "content-hash": "4ded9ce51505df6bf3d6f85c853eda42",
     "packages": [
         {
             "name": "brick/math",
@@ -60,6 +60,48 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "cherry/lara-thumb",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "C:/Users/Максим/Desktop/lavender/packages/cherry/laraThumb",
+                "reference": "f64f82e07ec59e711f42e11b39fb78ee31b60162"
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.12"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cherry\\LaraThumb\\Providers\\LaraThumbServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cherry\\LaraThumb\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "chernyshovmaksim",
+                    "email": "chernyshovmaksim56@gmail.com",
+                    "homepage": "https://t.me/chernyshovmaksim"
+                }
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
         },
         {
             "name": "dflydev/dot-access-data",
