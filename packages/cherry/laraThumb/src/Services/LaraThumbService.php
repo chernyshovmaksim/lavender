@@ -1,11 +1,16 @@
 <?php
 
 namespace Cherry\LaraThumb\Services;
+use Intervention\Image\Facades\Image;
 
 class LaraThumbService
 {
-    public static function src($path): string
+    public static function src($path, $params): string
     {
-        return $path . ' - ' . $path;
+        if(isset($params['w'])){
+
+            dd($params['w']);
+        }
+        return $path;
     }
 }
