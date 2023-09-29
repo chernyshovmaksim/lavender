@@ -12,9 +12,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 
 import Alpine from 'alpinejs';
+import intersect from '@alpinejs/intersect';
 
 window.Alpine = Alpine;
-
+Alpine.plugin(intersect);
 Alpine.start();
 
 /**
