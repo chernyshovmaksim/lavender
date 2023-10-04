@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [PageController::class, 'Home']);
+
+Route::get('/cart', [CartController::class, 'index'])->name('cart');

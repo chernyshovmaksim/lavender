@@ -23,8 +23,7 @@ class TagFactory extends Factory
 
         return [
             'title' => $title,
-            'slug' => $slug,
-            'image' => fake()->imageUrl()
+            'slug' => $slug
         ];
     }
 }

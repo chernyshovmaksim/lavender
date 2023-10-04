@@ -31,7 +31,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/" class="relative">
+                    <a href="{{route('cart')}}" class="relative">
                         <img class="w-6 opacity-70" src="/assets/icons/cart.svg" alt="cart">
                         <div
                             class="text-[10px] bg-lavender w-4 h-4 rounded-full text-white font-black absolute top-1 -right-8 flex items-center justify-center">
@@ -70,7 +70,7 @@
                 ['title' => 'На свадьбу', 'path' => '/'],
             ]" />
 
-            
+
         </ul>
     </nav>
 </header>

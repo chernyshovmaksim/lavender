@@ -1,5 +1,3 @@
-<img src="{{$img}}" alt="">
-
 @extends('layouts.layout')
 
 @section('content')
