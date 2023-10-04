@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'Home']);
 
 Route::get('/cart', [CartController::class, 'index'])->name('cart');
+
+Route::get('/products', [ProductController::class, 'index'])->name('products');
