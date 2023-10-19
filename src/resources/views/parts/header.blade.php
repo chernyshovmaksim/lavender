@@ -31,7 +31,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{route('cart')}}" class="relative">
+                    <a href="{{ route('cart') }}" class="relative">
                         <img class="w-6 opacity-70" src="/assets/icons/cart.svg" alt="cart">
                         <div
                             class="text-[10px] bg-lavender w-4 h-4 rounded-full text-white font-black absolute top-1 -right-8 flex items-center justify-center">
@@ -44,8 +44,8 @@
     </div>
     <nav class="border-t-[1px] border-gray-100 mt-4 relative">
         <ul class="container flex items-center justify-between font-normal text-sm text-slate-700">
-            <li><a class=" py-2" href="/">Не дорогие цветы</a></li>
-            <x-link-with-megamenu title="Розы"/>
+            <li><a class=" py-2" href="/products">Не дорогие цветы</a></li>
+            <x-link-with-megamenu title="Розы" />
             <li><a class=" py-2" href="/">Разные цветы</a></li>
             <li><a class=" py-2" href="/">Букеты</a></li>
             <li><a class=" py-2" href="/">Цветы в коробке</a></li>
@@ -58,7 +58,7 @@
                 ['title' => 'Коллеге', 'path' => '/'],
                 ['title' => 'Врачу', 'path' => '/'],
                 ['title' => 'Учителю', 'path' => '/'],
-                ['title' => 'Ребенку', 'path' => '/']
+                ['title' => 'Ребенку', 'path' => '/'],
             ]" />
             <x-link-with-dropdown title="Повод" :items="[
                 ['title' => 'Извенение', 'path' => '/'],

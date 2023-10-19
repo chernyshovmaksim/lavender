@@ -5,5 +5,5 @@
     <x-heading title="Категории" />
     <x-categories />
     <x-heading title="Акции" />
-    <x-products />
+    <x-products class="container grid grid-cols-4 gap-6 gap-y-10" />
 @endsection

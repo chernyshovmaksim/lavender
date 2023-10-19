@@ -1,4 +1,5 @@
-import './bootstrap';
-import { Preloader } from './preloader';
+import "./bootstrap";
+import "./sliders";
+import { Preloader } from "./preloader";
 
 Preloader();

@@ -22,3 +22,5 @@ Route::get('/', [PageController::class, 'Home']);
 Route::get('/cart', [CartController::class, 'index'])->name('cart');
 
 Route::get('/products', [ProductController::class, 'index'])->name('products');
+
+Route::get('/product', [ProductController::class, 'product'])->name('product');
