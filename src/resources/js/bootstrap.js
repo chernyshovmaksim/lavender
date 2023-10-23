@@ -4,19 +4,19 @@
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-import axios from 'axios';
+import axios from "axios";
 window.axios = axios;
 
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
 
-
-
-import Alpine from 'alpinejs';
-import intersect from '@alpinejs/intersect';
+import Alpine from "alpinejs";
+import intersect from "@alpinejs/intersect";
 
 window.Alpine = Alpine;
 Alpine.plugin(intersect);
 Alpine.start();
+
+import "./alpine/product";
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
@@ -39,3 +39,29 @@ Alpine.start();
 //     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
 //     enabledTransports: ['ws', 'wss'],
 // });
+
+// import Swiper JS
+import Swiper from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
+
+const swiper = new Swiper(".swiper", {
+	modules: [Navigation, Pagination],
+	direction: "horizontal",
+	loop: true,
+
+	// If we need pagination
+	pagination: {
+		el: ".swiper-pagination",
+	},
+
+	// Navigation arrows
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+
+	// And if we need scrollbar
+	scrollbar: {
+		el: ".swiper-scrollbar",
+	},
+});
