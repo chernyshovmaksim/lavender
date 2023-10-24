@@ -14,31 +14,62 @@
 
 
         {{-- Product --}}
-        <section class="grid grid-cols-3 gap-8 my-8 p-2 bg-white shadow rounded">
+        <section class="grid grid-cols-7 gap-8 my-8 p-2 bg-white shadow rounded">
             {{-- Product images --}}
-            <div>
-                <div class="swiper h-[200px]">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide object-cover">Slide 1</div>
-                        <div class="swiper-slide object-cover">Slide 2</div>
-                        <div class="swiper-slide object-cover">Slide 3</div>
+            <div class=" col-start-1 col-end-4">
+                <div class="grid grid-cols-4 gap-2">
+                    <div class="col-start-1 col-end-2">
+                        <div class="swiper product-swiper-thumbs ">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper w-full max-h-[450px] gap-2">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img class="w-full h-full object-cover" src="/assets/img/category-bouquets.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="w-full h-full object-cover" src="/assets/img/category-others.webp" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="w-full h-full object-cover" src="/assets/img/category-roses.webp" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="col-start-2 col-end-5">
+                        <div class="swiper product-swiper-main h-[350px]">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper max-h-[300px]">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a class="block h-full w-full" href="/assets/img/category-bouquets.webp"
+                                        data-fancybox="gallery" data-caption="Caption #1">
+                                        <img class="w-full h-full object-cover" src="/assets/img/category-bouquets.webp" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="block h-full w-full" href="/assets/img/category-others.webp"
+                                        data-fancybox="gallery" data-caption="Caption #1">
+                                        <img class="w-full h-full object-cover" src="/assets/img/category-others.webp" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="block h-full w-full" href="/assets/img/category-roses.webp"
+                                        data-fancybox="gallery" data-caption="Caption #1">
+                                        <img class="w-full h-full object-cover" src="/assets/img/category-roses.webp" />
+                                    </a>
+                                </div>
+                            </div>
 
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
-            <div class="p-2" x-data="product">
+            {{-- Product card --}}
+            <div class="p-2 col-start-4 col-end-6" x-data="product">
                 <h3 class="text-2xl font-bold">Букет из 1 голубой гортензии</h3>
                 <div class="text-green-600 text-xs pt-4">В наличии</div>
                 <div class="text-gray-600 text-xs pb-4">Купили: 10 раз</div>
@@ -63,19 +94,21 @@
                             +
                         </div>
                     </div>
+                </div>
+                <div class="flex items-center gap-2 mt-4">
                     <div
-                        class="h-8 hover:cursor-pointer px-4 flex items-center justify-center text-xs bg-lavender text-white rounded">
+                        class="h-8 flex-1 hover:cursor-pointer px-4 flex items-center justify-center text-xs bg-lavender text-white rounded">
                         В корзину
                     </div>
                     <div
-                        class="h-8 hover:cursor-pointer px-2 flex items-center justify-center text-xs bg-white  text-lavender border-2 border-lavender rounded">
+                        class="h-8 flex-1 hover:cursor-pointer px-2 flex items-center justify-center text-xs bg-white  text-lavender border-2 border-lavender rounded font-semibold">
                         В один клик
                     </div>
                 </div>
             </div>
 
-
-            <div class="p-2">
+            {{-- Product info --}}
+            <div class="p-2 col-start-6 col-end-8">
 
                 <span class="font-bold text-sm mb-8 block">Информация</span>
 

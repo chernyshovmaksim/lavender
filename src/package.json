@@ -15,8 +15,9 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "alpinejs": "^3.13.0",
         "@alpinejs/intersect": "^3.13.0",
+        "@fancyapps/ui": "^5.0.24",
+        "alpinejs": "^3.13.0",
         "swiper": "^10.3.1"
     }
 }
