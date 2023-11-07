@@ -19,18 +19,18 @@
             <div class=" col-start-1 col-end-4">
                 <div class="grid grid-cols-4 gap-2">
                     <div class="col-start-1 col-end-2">
-                        <div class="swiper product-swiper-thumbs ">
+                        <div class="swiper product-swiper-thumbs max-h-80">
                             <!-- Additional required wrapper -->
-                            <div class="swiper-wrapper w-full max-h-[450px] gap-2">
+                            <div class="swiper-wrapper w-full gap-2">
                                 <!-- Slides -->
                                 <div class="swiper-slide">
-                                    <img class="w-full h-full object-cover" src="/assets/img/category-bouquets.webp" />
+                                    <img class="w-20 h-20 object-cover" src="/assets/img/category-bouquets.webp" />
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="w-full h-full object-cover" src="/assets/img/category-others.webp" />
+                                    <img class="w-20 h-20 object-cover" src="/assets/img/category-others.webp" />
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="w-full h-full object-cover" src="/assets/img/category-roses.webp" />
+                                    <img class="w-20 h-20 object-cover" src="/assets/img/category-roses.webp" />
                                 </div>
                             </div>
                         </div>
@@ -97,12 +97,12 @@
                 </div>
                 <div class="flex items-center gap-2 mt-4">
                     <div
-                        class="h-8 flex-1 hover:cursor-pointer px-4 flex items-center justify-center text-xs bg-lavender text-white rounded">
+                        class="h-8 flex-none hover:cursor-pointer px-4 flex items-center justify-center text-xs bg-lavender text-white rounded">
                         В корзину
                     </div>
                     <div
                         class="h-8 flex-1 hover:cursor-pointer px-2 flex items-center justify-center text-xs bg-white  text-lavender border-2 border-lavender rounded font-semibold">
-                        В один клик
+                        Купить без регистрации
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
 
                 <span class="font-bold text-sm mb-8 block">Информация</span>
 
-                <div id="toggle" x-data="{ toggleShow: false }" class="mb-4">
+                <div id="toggle" x-data="{ toggleShow: true }" class="mb-4">
 
                     <div class="flex items-center gap-2 text-xs select-none hover:cursor-pointer uppercase underline"
                         @click="toggleShow = !toggleShow">
