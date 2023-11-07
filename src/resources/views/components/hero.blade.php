@@ -2,11 +2,11 @@
     <div class="container p-4 mt-16 bg-white rounded shadow grid grid-cols-4 grid-rows-2 gap-6">
         <div 
             class="row-start-1 row-end-3 col-start-1 col-end-3 bg-slate-200 rounded relative overflow-hidden" 
-            x-intersect.threshold.50="$refs.img.src = $refs.img.dataset.img">
+            x-intersect.threshold.50="$refs.img.src = $refs.img.dataset.image">
                 <img 
                     x-ref="img" 
                     src="/assets/img/hero-one.webp" 
-                    data-img="/assets/img/hero-one.webp" 
+                    data-image="/assets/img/hero-one.webp" 
                     class="w-full h-full object-cover" 
                     alt="">
 
@@ -20,11 +20,11 @@
 
         <div 
             class="row-start-1 row-end-2 col-start-3 col-end-4 bg-lavender rounded relative overflow-hidden" 
-            x-intersect.threshold.50="$refs.img-1.src = $refs.img-1.dataset.img">
+            x-intersect.threshold.50="$refs.roses.src = $refs.roses.dataset.image">
             <img
-                x-ref="img-1"
+                x-ref="roses"
                 src="/assets/img/1x1.webp"
-                data-img="/assets/img/category-roses.webp"
+                data-image="/assets/img/category-roses.webp"
                 alt=""
                 class="w-full h-full object-cover">
 
@@ -45,9 +45,9 @@
 
         <div 
             class="row-start-2 row-end-3 col-start-3 col-end-4 bg-lavender rounded relative overflow-hidden" 
-            x-intersect.threshold.50="$refs.img-2.src = $refs.img-2.dataset.img">
+            x-intersect.threshold.50="$refs.bouquets.src = $refs.bouquets.dataset.img">
             <img 
-                x-ref="img-2" 
+                x-ref="bouquets" 
                 src="/assets/img/1x1.webp" 
                 data-img="/assets/img/category-bouquets.webp" 
                 alt="" 
@@ -63,9 +63,9 @@
 
         <div 
             class="row-start-2 row-end-3 col-start-4 col-end-5 bg-lavender rounded relative overflow-hidden" 
-            x-intersect.threshold.50="$refs.img-3.src = $refs.img-3.dataset.img">
+            x-intersect.threshold.50="$refs.others.src = $refs.others.dataset.img">
             <img 
-                x-ref="img-3" 
+                x-ref="others" 
                 src="/assets/img/1x1.webp" 
                 data-img="/assets/img/category-others.webp" 
                 alt="" 

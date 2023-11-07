@@ -34,7 +34,7 @@
                     <a href="{{ route('cart') }}" class="relative">
                         <img class="w-6 opacity-70" src="/assets/icons/cart.svg" alt="cart">
                         <div
-                            class="text-[10px] bg-lavender w-4 h-4 rounded-full text-white font-black absolute top-1 -right-8 flex items-center justify-center">
+                            class="text-[10px] bg-lavender w-4 h-4 rounded-full text-white font-black absolute -top-3 -right-3 flex items-center justify-center">
                             <span>3</span>
                         </div>
                     </a>
