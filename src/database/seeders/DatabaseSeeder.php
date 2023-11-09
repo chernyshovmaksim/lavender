@@ -20,19 +20,5 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-
-
-        Tag::factory()->create([
-            'title' => 'Красные',
-            'slug' => 'red',
-        ]);
-        Tag::factory()->create([
-            'title' => 'Белые',
-            'slug' => 'white',
-        ]);
-        Tag::factory()->create([
-            'title' => 'Розовые',
-            'slug' => 'pink',
-        ]);
     }
 }
