@@ -14,7 +14,7 @@
     
     <x-preloader></x-preloader>
 
-    @include('parts.header')
+    @include('components.header')
 
     @yield('content')
 

@@ -1,5 +1,5 @@
 <div class="bg-lavender py-1">
-    <div class="container text-white text-xs flex items-center gap-8">
+    <div class="container text-white text-xs flex items-center md:gap-8 gap-0 justify-between">
         <a href="/" class="flex items-center gap-2">
             <img class="w-3 filter invert" src="/assets/icons/map-pin.svg" alt="">
             <span>Победы 75Е</span>
@@ -10,8 +10,8 @@
         </a>
     </div>
 </div>
-<header class="pt-4 shadow bg-white relative">
-    <div class="mx-auto container flex items-center">
+<header class="pt-4 shadow bg-white relative hidden lg:block">
+    <div class="mx-auto container flex items-center overflow-hidden">
         <x-logo />
         <nav class="ml-auto">
             <ul class="flex items-center gap-4 font-serif text-xs text-slate-500">
@@ -74,3 +74,9 @@
         </ul>
     </nav>
 </header>
+
+<div id="mobile-header" class="py-12 bg-white">
+    <div class="container flex items-center">
+        <x-logo />
+    </div>
+</div>
